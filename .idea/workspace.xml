@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed080f5c-6aac-4e3d-826e-cbdc4a4d5c59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HotelSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/seleniumdemo/pages/LoggedUserPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/seleniumdemo/pages/SignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/seleniumdemo/pages/HotelSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/seleniumdemo/pages/HotelSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/seleniumdemo/tests/HotelSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/seleniumdemo/tests/HotelSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/seleniumdemo/tests/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/seleniumdemo/tests/SignUpTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,25 +26,60 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="fluent-approach" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2CGHEq0YZgB0OgdpkoNghnqRfR0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Krzysztof/Downloads/ignore-4.4.0.zip&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.HotelSearch.searchHotel">
+    <configuration name="HotelSearchTest.searchHotelWithoutNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="travels" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.seleniumdemo.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.seleniumdemo.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.seleniumdemo.tests.HotelSearchTest" />
+      <option name="METHOD_NAME" value="searchHotelWithoutNameTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HotelSearch.searchHotel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="travels" />
       <option name="PACKAGE_NAME" value="" />
@@ -56,8 +92,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SignUpTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="travels" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="pl.seleniumdemo.tests.SignUpTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpTest.signUpTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="travels" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.seleniumdemo.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.seleniumdemo.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.seleniumdemo.tests.SignUpTest" />
+      <option name="METHOD_NAME" value="signUpTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pl.seleniumdemo.tests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="travels" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.seleniumdemo.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.seleniumdemo.tests" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SignUpTest.signUpTest" />
+        <item itemvalue="TestNG.SignUpTest" />
+        <item itemvalue="TestNG.pl.seleniumdemo.tests" />
+        <item itemvalue="TestNG.HotelSearchTest.searchHotelWithoutNameTest" />
         <item itemvalue="TestNG.HotelSearch.searchHotel" />
       </list>
     </recent_temporary>
@@ -71,6 +156,70 @@
       <option name="presentableId" value="Default" />
       <updated>1658421894779</updated>
     </task>
+    <task id="LOCAL-00001" summary="Set city name">
+      <created>1658424707410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658424707410</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Set date of checkin and checkout">
+      <created>1658758172427</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658758172427</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add hotel search without hotel/city name - homework">
+      <created>1658931892190</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658931892190</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add sign up test">
+      <created>1658931949711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658931949711</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add sign up empty form test">
+      <created>1659373727216</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659373727216</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add sign up test with invalid email">
+      <created>1659374188830</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659374188830</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add BaseTest&#10;Add first Page Object">
+      <created>1659461000182</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659461000182</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add ResultPage&#10;Refactor HotelSearchTest">
+      <created>1659623117020</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659623117020</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Reformat code&#10;Refactor to follow fluent approach">
+      <created>1660148402235</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660148402235</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,10 +227,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Set city name" />
+    <MESSAGE value="Set date of checkin and checkout" />
+    <MESSAGE value="Add hotel search without hotel/city name - homework" />
+    <MESSAGE value="Add sign up test" />
+    <MESSAGE value="Add sign up empty form test" />
+    <MESSAGE value="Add sign up test with invalid email" />
+    <MESSAGE value="Add BaseTest&#10;Add first Page Object" />
+    <MESSAGE value="Add ResultPage&#10;Refactor HotelSearchTest" />
+    <MESSAGE value="Reformat code&#10;Refactor to follow fluent approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformat code&#10;Refactor to follow fluent approach" />
   </component>
 </project>

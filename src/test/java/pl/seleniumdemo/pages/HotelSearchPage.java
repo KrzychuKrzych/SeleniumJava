@@ -1,5 +1,7 @@
 package pl.seleniumdemo.pages;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -42,29 +44,37 @@ public class HotelSearchPage {
     private List<WebElement> signUpLink;
     private WebDriver driver;
 
+    private static final Logger logger = LogManager.getLogger();
+
     public HotelSearchPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
         this.driver = driver;
     }
 
     public HotelSearchPage setCity(String cityName) {
+        logger.info("Setting city name " + cityName);
         searchHotelSpan.click();
         searchHotelInput.sendKeys(cityName);
         String xpath = String.format("//span[@class='select2-match' and text()='%s']", cityName);
         driver.findElement(By.xpath(xpath)).click();
+        logger.info("Setting city done");
         return this;
     }
 
     public HotelSearchPage setDates(String checkin, String checkout) {
+        logger.info("Setting dates check-in: " + checkin + "check-out" + checkout);
         checkinInput.sendKeys(checkin);
         checkoutInput.sendKeys(checkout);
+        logger.info("Setting dates done");
         return this;
     }
 
     public HotelSearchPage setTravelers(int adultsToAdd, int childToAdd) {
+        logger.info("Adding adults: " + adultsToAdd + " and kids: " + childToAdd);
         travellersInput.click();
         addTraveler(adultPlusBtn, adultsToAdd);
         addTraveler(childPlusBtn, childToAdd);
+        logger.info("Adding travellers done");
         return this;
     }
 
@@ -75,7 +85,9 @@ public class HotelSearchPage {
     }
 
     public ResultsPage performSearch() {
+        logger.info("Performing search");
         searchButton.click();
+        logger.info("Performing search done");
         return new ResultsPage(driver);
     }
 
